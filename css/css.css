@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 oct. 2018, 11:07:14
+    Author     : MIW
+*/
+
+body{
+    background-color: beige;
+    margin:0;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4{
+    margin:0; 
+}
+
+/*<---------------------------------------Header---------------------------->*/
+
+header h1{
+    position: static;
+    background-color : background;
+    border: solid 1px;
+}
+header div{
+    background-image: url("../Images/background.jpg");
+    line-height: 150px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border: solid 1px;
+}
+/*<---------------------------------------section chat---------------------->*/
+
+#chat aside,div{
+    display: inline-block;
+    vertical-align: middle;
+}
+#chat div{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+/*<---------------------------------------form------------------------------>*/
+
+aside form{
+    padding-left: 350px;
+    margin-right: 20px;
+}
+aside form h2{
+    text-align: center;
+
+}
+/*<---------------------------------------form div-------------------------->*/
+#choixChat{
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    margin-top : 10px;
+}
+
+#choixChat h3,select,textarea{
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-bottom: 5px
+}
+#choixChat select{
+    width: 92%;
+    height: 25px;
+}
+#choixChat input{
+    width: 95%;
+    height: 27px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    background: lightgreen;
+}
+/*<---------------------------------------image chat------------------------>*/
+#imgChat{
+    width:100%;
+}
+/*<---------------------------------------section adoptez------------------->*/
+#adopter{
+    border: solid 1px;
+    clear: both;
+}
+/*<---------------------------------------section adoptez------------------->*/
+footer{
+    border: solid 1px;
+}
